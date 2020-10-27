@@ -37,13 +37,16 @@ lerna-repo/
 **옵션**
 `--independent` or  `-i` 독립 버전 관리 모드를 사용합니다.
 <br>
+
 - `lerna bootstrap`
 현재 Lerna 저장소에서 패키지를 부트 스트랩합니다. 모든 종속성을 설치하고 상호 종속성을 연결합니다.
 이 명령을 사용 require()하면 패키지가 이미 존재하고 node_modules폴더 에서 사용 가능한 것처럼 패키지 이름을 사용할 수 있으므로 매우 중요 합니다.
 <br>
+
 - `lerna import <pathToRepo>`
 로컬 경로 <pathToRepo>의 패키지를 커밋 기록이있는 packages / <directory-name>으로 가져옵니다.
 <br>
+
 - `lerna publish`
 업데이트 된 패키지의 새 릴리스를 만듭니다. 새 버전을 요청하고 git 및 npm의 모든 패키지를 업데이트합니다.
 **옵션**
@@ -54,12 +57,15 @@ lerna-repo/
 
 - `lerna changed`
 마지막 릴리스 이후 변경된 패키지를 확인하십시오.
+<br>
 
 - `lerna diff [package?]`
 마지막 릴리스 이후 모든 패키지 또는 단일 패키지를 비교하십시오.
+<br>
 
 - `lerna run [script]`
 해당 스크립트가 포함 된 각 패키지에서 npm 스크립트 를 실행하십시오 .
+<br>
 
 - `lerna ls`
 현재 Lerna 저장소의 모든 공개 패키지를 나열합니다.
